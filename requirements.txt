@@ -1,0 +1,16 @@
+# Medical NER & Contrastive Retrieval System - Requirements
+# ============================================================
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+# FAISS for fast similarity search
+faiss-cpu>=1.7.4
+
+# Gradio for the web interface
+gradio>=4.0.0
+
+# Optional: For GPU support, install faiss-gpu instead of faiss-cpu
+# faiss-gpu>=1.7.4
